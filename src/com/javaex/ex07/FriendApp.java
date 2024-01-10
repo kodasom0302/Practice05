@@ -14,7 +14,10 @@ public class FriendApp {
         
         //for문 시작
         //친구정보 3명 입력 로직 --> 반복문 사용
-            
+            for (int i=0; i<friendArray.length; i++) {
+            	String friend=sc.nextLine();
+            	friendArray[i]=friend;
+            }
       
         //for문 끝
         
@@ -22,6 +25,7 @@ public class FriendApp {
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
             //친구정보 출력 메소드 호출
+        	System.out.println(friendArray[i]);
         }
 
         sc.close();
