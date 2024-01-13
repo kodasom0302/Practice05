@@ -1,5 +1,5 @@
 package com.javaex.ex08;
-
+//???
 public class Account {
 
     private String accountNo;
@@ -14,6 +14,14 @@ public class Account {
     
     //필요한 메소드 작성
 	public void deposit() {
+		int money=0;
+		System.out.println(balance+money);
+	}
+	public void withdraw() {
+		int money=0;
+		System.out.println(balance-money);
+	}
+	public void showBalance() {
 		System.out.println(balance);
 	}
 
